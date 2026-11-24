@@ -1,0 +1,18 @@
+manifest_version = 1
+api_version = 1
+id = "local.winc-directory"
+name = "Winc"
+version = "0.3.0"
+
+[[directory_launchers]]
+id = "open-current-directory"
+title = "Winc"
+executable = "{select-executable}"
+windows_args = ["--launcher", "."]
+wsl_args = ["--launcher", "--wsl", "{distribution}", "{directory}"]
+
+[[directory_launchers]]
+id = "open-current-folder-in-explorer"
+title = "文件夹"
+icon = "folder_open"
+executable = "windows-explorer"

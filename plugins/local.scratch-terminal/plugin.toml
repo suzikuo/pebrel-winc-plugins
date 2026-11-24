@@ -1,0 +1,8 @@
+manifest_version = 1
+api_version = 1
+id = "local.scratch-terminal"
+name = "Scratch Terminal"
+version = "1.0.0"
+
+[workspace]
+scratch_terminal = true
