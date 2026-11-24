@@ -19,7 +19,7 @@
       "name_zh": "临时终端",
       "description": "Open a hideable shell for the current tab. Dock it below the terminal or move and resize it as a floating panel.",
       "description_zh": "给当前标签加一个可隐藏的命令行，可停靠在下方，也可浮动、移动和缩放。",
-      "revision": "73cda662501153b23bcbd71d6b5815802d60a9d8"
+      "revision": "b7d51da04d227b28e0702b7fa67bf6e07b776655"
     }
   ]
 }
