@@ -1,9 +1,9 @@
 # Scratch Terminal
 
-Install this folder in **Settings → Plugins → Install from folder** and approve workspace access. With the Pebrel Winc build that supports this contribution, you can also run:
+Install **Scratch Terminal** from **Settings → Plugins → Plugin Community** and approve workspace access. For manual installation, download this folder and select it under **Settings → Plugins → Install from folder**. With a Pebrel Winc build that supports Scratch Terminal, you can also run the following command from this repository’s root.
 
 ```powershell
-pebrel plugin install pebrel_app/examples/plugins/scratch-terminal --grant workspace-ui
+pebrel plugin install plugins/local.scratch-terminal --grant workspace-ui
 ```
 
 In a local terminal tab, click the terminal icon in the title bar or press **Ctrl+Alt+J**. The same action hides the panel and returns focus to your pane. Click **＋** to start another scratch shell in the current tab, then click a shell’s label to switch. Every shell keeps running while hidden or unselected. Use **×** to end the selected shell, or type `exit`. When the tab has several scratch shells, the circled **×** closes all of them. If any has a running job, Pebrel asks before closing the group. Each tab has its own set of shells within the window.
